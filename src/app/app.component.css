@@ -1,0 +1,80 @@
+body {
+    background-color: darkslategray;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h1 {
+    color: rgb(22, 3, 3);
+}
+
+h2 {
+    color: rgb(88, 23, 6);
+    padding-top: 10px;
+    padding-bottom: -20px;
+    margin: 0px;
+}
+
+h3 {
+    color: rgb(13, 75, 13);
+    text-align: left;
+    }
+
+h4 {
+    color: rgb(61, 80, 27);
+    text-indent: 20px;
+    }
+
+hr {
+    height: 2px;
+    background-color: saddlebrown;
+    border-color: saddlebrown;
+    margin: 20px;
+}
+
+div.profile {
+    width: 90%;
+    background-color: darkkhaki;
+    border-style: groove;
+    border-color: saddlebrown;
+    margin: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20px;
+    padding-bottom: 20%;
+    max-width: 500px;
+    min-width: 480px;
+}
+    
+p {
+    word-wrap: normal;
+    width: 240px;
+    text-align: center;
+    }
+
+div.picture, div.likes {
+    width: 50%;
+    display: inline-block;
+    font-size: 14px;
+    word-wrap: normal;
+    vertical-align: top;
+}
+
+img {
+    border-style: ridge;
+    border-color: black;
+}
+
+a {
+    font-colour: darkred;
+}
+
+a.hover {
+    font-color: red;
+}
+
+a.visited {
+    font-color: grey;
+}
